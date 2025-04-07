@@ -1,0 +1,218 @@
+.navbar_section{
+  display: flex; 
+  height: 70px;
+}
+.topper{
+  width: 91%;
+  background-color: plum;
+}
+.logo_name{
+  background-image:url("./images/mog_logo2.jpg");
+   background-position: initial; 
+  background-size: 90%,80%; 
+  background-repeat: no-repeat;
+  width: 9%;
+  font-size: 50px;
+  color: plum;
+}
+
+/* .navbar_signup{
+  float: right;
+  display: flex;
+  justify-content: space-between ;
+  width: auto;
+  width: 30%;
+  margin-top: 10px;
+   padding: 1em;  
+  font-size: 15px; 
+} */
+.navbar{
+    display: flex;
+    justify-content: space-between ;
+    width: auto; 
+    width: 50%;
+    color: blueviolet;
+    height: 30px;
+    margin: auto;
+    margin-top: 25px;
+    margin-left: 40%;
+}
+.navbar button :hover{
+  font-size: 20px;
+ }
+ .navbar button {
+  border: none;
+  border-radius: 5px;
+  
+ }
+ .name_animation{
+  height: 200px;
+  width: 25%; 
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  background-color: red;
+  position: relative;
+  animation-name: name_animation;
+  animation-duration: 10s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+ }
+ /* @keyframes name_animation{
+   35%{background-color: blueviolet;left: 0px;top: 0px;}
+   50%{background-color: cadetblue ;left: 200px;top: 0px;}
+   65%{background-color: purple;left: 0px;}
+ } */
+ @keyframes name_animation {
+  0%   {background-color:plum; }
+  25%  {background-color:yellow; margin-left: 25%; }
+  50%  {background-color:blue; margin-left: 50%;}
+  75%  {background-color:green;margin-left: 75%;}
+  100% {background-color:purple; margin-left: 0%;}
+}
+.name_animationsec{
+  margin-top: -20px;
+}
+.mainbody {
+  height: 600px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.fashion{
+  width: 30%;
+  background-image:url("../images/fashion\ pics\ 1.avif") ;
+  background-position: center;
+  background-size: cover;
+}
+.FURNITURE_motor{
+  width: 34%;
+}
+.FURNITURE{
+  background-image: url("./images/furniture\ pics\ 1");
+  height: 295px;
+  background-position: center;
+  background-size: cover;
+}
+.MOTORS{
+  background-image: url("./images/car\ pics");
+  margin-top: 10px;
+  height: 295px;
+  background-position: center;
+  background-size: cover;
+}
+.phones_sport{
+  width: 34%;
+ }
+ .phone{
+  background-image: url("./images/phone\ pics");
+  height: 295px;
+  background-position: center;
+  background-size: cover;
+ }
+ .SPORT{
+  background-image: url("./images/sport");
+  margin-top: 10px;
+  height: 295px;
+  background-position: center;
+    background-size: cover;
+ }
+ .fashion_text{
+  background-color: plum ;
+ }
+ .furniture_text{
+  background-color: plum ;
+ }
+ .motor_text{
+  background-color: plum ;
+ }
+ .phone_text{
+  background-color: plum;
+ }
+ .sport_text{
+  background-color: plum ;
+  position:absolute;
+  bottom: 8%;
+  right: 12%;
+  
+  font-size: 18px;
+}
+#trend_head{
+  text-align: center;
+  font-weight: 50px;
+  font-family: Impact, Haettenschweiler,
+   'Arial Narrow Bold', sans-serif;
+  margin-top: 50px;
+  color: blueviolet;
+}
+.trends_sec{
+
+  }
+.img_container{
+  width: 90%; 
+  height: 800px;
+  background-position: center;
+  background-size: cover;
+  margin: auto;
+  padding:auto ;
+  }
+  .trend_img{
+    width: 70%;
+    height: 650px;
+    margin-left: 15%;
+    margin-top: 5%;
+    transition: 4s ease-in;
+  }
+/* .trends_img{
+  width: 3600px;
+  height: 800px;
+  margin: 0 0 0 -2400px;
+  position: relative;
+  -webkit-animation-name: trends_animation ;
+  -webkit-animation-duration: 40s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  -webkit-animation-play-state: running;
+} */
+
+/* @-webkit-keyframes trends_animation{
+  0%{left: 0px;}
+  10%{left: 0px;}
+  20%{left: 1200px;}
+  30%{left: 1200px;}
+  40%{left: 2400px;}
+  50%{left: 2400px;}
+  60%{left: 1200px;}
+  70%{left: 1200px;}
+  80%{left: 0px;}
+  90%{left: 0px;}
+  100%{left: 0px;}
+}
+ */
+ .footer_container{
+  height: 700px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  
+ }
+ .index_footer{
+  background-color: rgb(53, 43, 43);
+  border-top: 3px solid blue;
+ }
+ .footer_container a {
+  color: plum;
+  text-decoration: none;
+ }
+.copyright{
+  width: 35%;
+  height: 50px;
+  margin: auto;
+}
+
+
+
+
+
+
+
